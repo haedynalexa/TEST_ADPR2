@@ -1,0 +1,75 @@
+body {
+    background-color: #faf2ef;
+    margin: 0 10%;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #8caba8;
+    margin-top: 30px;
+}
+h2 {
+    color: #8caba8;
+    font-size: 1eml
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    background-color: rgba(0 0 0 / 0.25);
+}
+
+
+/* New styles for Exercise 5 */
+
+body{
+    font-family:sans-serif;
+  }
+  header{
+    background-color: #FAF0E6;
+    color: #fff;
+    padding: 45px 25px;
+  }
+  
+  nav{
+    background-color:#666;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+  /* nav ul li {} */
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 12px;
+    min-width: 120px;
+    transition: background-color 0.5s ease;
+  }
+  nav ul li a:hover {
+    background-color: #111;
+  }
+  
+  aside img{
+    border: 4px solid #8FB4FF;
+    border-radius: 99999px;
+  }
+    
+  
+  
