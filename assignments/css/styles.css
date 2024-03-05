@@ -30,8 +30,8 @@ img {
 /* New styles for Exercise 5 */
 
 body{
-    font-family:sans-serif;
-    background-image: url("moroccan-flower copy.png");
+    font-family: sans-serif;
+    background-image: url("../images/moroccan-flower.png");
     background-repeat: repeat;
     background-position: right bottom;
   }
