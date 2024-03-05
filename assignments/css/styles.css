@@ -31,11 +31,19 @@ img {
 
 body{
     font-family:sans-serif;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/moroccan-flower-pattern/);
+    background-repeat: repeat;
+    background-position: right bottom;
   }
   header{
     background-color: #FAF0E6;
     color: #fff;
     padding: 45px 25px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 35px 25px;
   }
   
   nav{
