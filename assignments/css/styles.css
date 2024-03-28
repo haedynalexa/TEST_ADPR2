@@ -82,8 +82,46 @@ body{
     border: 4px solid #8FB4FF;
     border-radius: 99999px;
   }
-    
+  div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+    a:link,a :visited {
+      color:cornflowerblue
+      text-decoration: none;
+    }
+a:hover {
+  color:#8FB4FF
+  text-decoration: underline;
+}
   /*********** Layout ***********/
+.container {
+  background-color: white;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  width: min(95%, 75rem);
+}
+.container > * {
+  grid-column: span 12;
+}
+
+/* Desktop Layout */
+@media screeen and (min-width: 40rem) {
+  .col-span-8 {
+    grid-column: span 8;
+  }
+  .col-span-4 {
+    grid-column: span 4;
+  }
+}
 
 
-  
+/*********** Components ***********/
+.button:link, .button:visited {
+  color: white;
+  background-color: aliceblue;
+}  
