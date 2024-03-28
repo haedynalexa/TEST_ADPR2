@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 body {
     background-color: #faf2ef;
     margin: 0 10%;
@@ -79,5 +83,7 @@ body{
     border-radius: 99999px;
   }
     
-  
+  /*********** Layout ***********/
+
+
   
