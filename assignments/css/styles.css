@@ -119,10 +119,14 @@ a:hover {
   }
 }
 
-
 /*********** Components ***********/
 .button:link, .button:visited {
   color: white;
   background-color: aliceblue;
   padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  box-shadow: 0 .125rem .5rem aliceblue;
+  display: block;
+  margin: 0 .25rem .25rem 0;
+  
 }  
