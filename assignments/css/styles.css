@@ -124,7 +124,7 @@ a:hover {
 .button:link,
 .button:visited {
   color: white;
-  background-color: aliceblue;
+  background-color: #4096e1;
   text-align: center;
   text-decoration: none;
   padding: 1rem 1.75rem;
