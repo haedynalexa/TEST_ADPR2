@@ -110,7 +110,7 @@ a:hover {
 }
 
 /* Desktop Layout */
-@media screeen and (min-width: 40rem) {
+@media (min-width: 40rem) {
   .col-span-8 {
     grid-column: span 8;
   }
